@@ -37,8 +37,8 @@ Die SBB Uhr gibt die Systemzeit des Ausgabegerätes in analoger Form aus. Es ist
 - Der Abstand der Uhr zu den nächst gelegenen Elementen (Margin) muss mindestens je Seite 20% des Uhrdurchmessers betragen. 
 
 ## Ausprägungen und Zustände
+Die Komponente hat folgende Ausprägungen: 
 ![Bild SBB Uhr Ausprägungen](https://github.com/GoetteSebastian/sbbUhr/blob/main/SBB-Uhr.jpg "Bild SBB Uhr Ausprägungen")
 
-Die Komponente hat folgende Ausprägungen. 
 - Uhr auf hellem Hintergrund
 - Uhr auf dunklem Hintergrund
