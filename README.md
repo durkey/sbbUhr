@@ -5,17 +5,21 @@ In your html header add `<script src="path/to/sbbUhr-1.3.js"></script>`
 In the html body define a `<div></div>` Tag with a unique id where the clock will be hosted. 
 
 In a seperate script create a new clock `var myClock = new sbbUhr(container, background, fps);`
+
 `container (string)` is the id of the defined div container, where the clock will be hosted. 
+
 optional `background (boolean)` true = clock will be placed on a dark background, false = clock will be placed on a white background. 
+
 optional `fps` set the refreshrate of the clock. Must be higher than 10 frames/second to get a smooth pointer movement. If not set, the clock will be rendered with every frame.
 
 ## Methods
 `myClock.start()` will start the clock. 
+
 `myClock.stop()` will stop the clock. 
 
 ---
 
-## Digitale SBB Uhr
+## Digitale Uhr
 Die digitale SBB Uhr wird in Webanwendungen oder auf dynamischen Kundeninformationskanälen im Zug oder am Bahnhof eingesetzt. Sie imitiert die Bewegungen und adaptiert das Design der physischen SBB Uhr. 
 
 ## Verwendung
@@ -31,8 +35,8 @@ Die SBB Uhr gibt die Systemzeit des Ausgabegerätes in analoger Form aus. Es ist
 - Die Uhr kann auch als Stilelement verwendet werden, der Kundennutzen muss jedoch in allen Fällen gewährleistet sein. 
 
 ## Regeln
-- Die Mindestgrösse der Uhr darf 100px x 100px nicht unterschreiten. 
-- Je nach Einsatzort ist die Mindestgrösse der Betrachtungsdistanz anzupassen. Als Faustregel gilt, Betrachtungsdistanz / 250 = Uhrgrösse (z.B. 2500mm / 250 = 100mm Uhrgrösse). 
+- Die Mindestgrösse der Uhr darf 75px x 75px nicht unterschreiten. 
+- Je nach Einsatzort ist die Mindestgrösse der Betrachtungsdistanz anzupassen. Als Faustregel gilt, Betrachtungsdistanz / 50 = Uhrgrösse (z.B. 2500mm / 50 = 50mm Uhrgrösse). 
 - Pro Seite / Ansicht soll nur eine Uhr eingesetzt werden. 
 - Der Abstand der Uhr zu den nächst gelegenen Elementen (Margin) muss mindestens je Seite 20% des Uhrdurchmessers betragen. 
 
