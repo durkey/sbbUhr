@@ -3,8 +3,13 @@
  * All rights reserves by SBB AG, Switzerland.
  * Apache-2.0 License
  */
-function sbbUhr(container, background = false, fps = false) { 	//Check if selected container is valid
+function sbbUhr(container, background = false, fps = false) {
+	//Check if selected container is valid
 	if (!document.getElementById(container)) return console.log("Select exaclty 1 container to place the clock inside!"), !1;
+	if(typeof background == "number") {
+		fps = background;
+		background = false;
+	}
 	if (typeof background !== "boolean") background = false;
 	if (typeof fps !== "number") fps = false;
 	//Construct SBB Uhr Object
