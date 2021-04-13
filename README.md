@@ -19,7 +19,7 @@ optional `fps` set the refreshrate of the clock. Must be higher than 10 frames/s
 
 ---
 
-## Digitale SBB Uhr
+## Digitale Uhr
 Die digitale SBB Uhr wird in Webanwendungen oder auf dynamischen Kundeninformationskanälen im Zug oder am Bahnhof eingesetzt. Sie imitiert die Bewegungen und adaptiert das Design der physischen SBB Uhr. 
 
 ## Verwendung
