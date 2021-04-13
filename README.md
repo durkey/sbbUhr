@@ -11,6 +11,7 @@ optional `fps` set the refreshrate of the clock. Must be higher than 10 frames/s
 
 ## Methods
 `myClock.start()` will start the clock. 
+
 `myClock.stop()` will stop the clock. 
 
 ---
